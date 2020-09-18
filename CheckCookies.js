@@ -35,4 +35,5 @@ function doSomething() {
     `;
   }
 }
-doSomething();
+var thing = doSomething();
+document.write(thing);
